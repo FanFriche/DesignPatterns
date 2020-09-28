@@ -1,19 +1,10 @@
-var Singleton = (function () {
-    var instance;
- 
-    function createInstance() {
-        var object = new Object("Instância única");
-        return object;
-    }
- 
-    return {
-        getInstance: function () {
-            if (!instance) {
-                instance = createInstance();
-            }
-            return instance;
-        }
-    };
-})();
+let instance;
 
-module.exports = Singleton;
+module.exports = {
+    getInstance: function () {
+        if (!instance) {
+            instance = new Object("Instância única");
+        }
+        return instance;
+    }
+}
