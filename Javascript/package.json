@@ -1,0 +1,11 @@
+{
+  "name": "designpatterns",
+  "version": "1.0.0",
+  "description": "A implementation that have a example of each design pattern",
+  "main": "src/singleton/singletonTest.js",
+  "scripts": {
+    "start": "node src/singleton/singletonTest.js"
+  },
+  "author": "afraniofriche",
+  "license": "ISC"
+}
